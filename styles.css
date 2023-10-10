@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	display: grid;
+    justify-content: center;
+    grid-template: repeat(3,100px)/repeat(3,100px);
+    gap: 5px;
+}
+#photo-heading{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
